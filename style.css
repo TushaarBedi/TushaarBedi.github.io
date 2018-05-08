@@ -1,0 +1,84 @@
+html{
+  position: relative;
+  min-height: 100%;
+  background-color: skyblue;
+
+}
+
+body{
+  margin-bottom: 60px;
+}
+
+.panel-body{
+  background-color: #f8f8f8;
+}
+
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: teal;
+}
+
+h3{
+  font-family: 'Times New Roman', Times, serif;
+  color: teal;
+  text-align: center;
+  font-weight: bold;
+}
+
+.panel{
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+footer{
+  color: white;
+  background-color: rgb(110, 108, 108);
+  padding: 15px;
+  height: 60px;
+  width: 100%;
+  border-top: 10px;
+  border-top-color: teal;
+  border-width: 10px;
+  border-top-style: solid;
+  position: absolute;
+  bottom: 0;
+}
+
+.text{
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text2{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.column_names{
+  font-weight: bold;
+}
+
+.current{
+  border: 5px;
+  border-width: 5px;
+  border-color: teal;
+  border-style: solid;
+}
+
+
+
+
+.teal-color {
+  color: teal;
+  font-weight: bold;
+  font-size: 45px;
+  
+}
+
+.teal-color-h3 {
+  color: teal;
+  font-weight: bold;
+  font-size: 30px;
+  
+}

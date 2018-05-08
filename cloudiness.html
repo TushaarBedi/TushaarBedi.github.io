@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cloudiness Analysis</title>
+    <!-- Importing all the style.css (CSS Stylesheets) Dependencies -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Importing all the Bootstrap Dependencies -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    
+      
+</head>
+<body>
+    
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                    <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-1"></div>
+                            <a class="navbar-brand" href="Tushaar_Index.html"style="color: white; background-color: teal;">
+                                <span class="nav-color"> Latitude</span>
+                            </a>
+                    </div>
+    
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="max_temp.html">Max Temperature</a></li>
+                                        <li><a href="humidity.html">Humidity</a></li>
+                                        <li><a href="cloudiness.html">Cloudiness</a></li>
+                                        <li><a href="wind_speed.html">Wind Speed</a></li>
+                                    </ul>
+                            </li>
+                            <li><a href="comparisons.html">Comparisons</a></li>
+                            <li><a href="data.html">Data</a></li>
+                        </ul>
+                    </div>
+            </div>
+    </nav>
+
+
+
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h2 class = teal-color>Cloudiness Analysis</h2>
+                        <hr>
+                        <img src="latitude_vs_cloudiness.png" alt="" style="width:75%; margin: 5px">
+
+                        <p class="text2">Unfortunately, this plot is not very conclusive either. This is because the pattern of cloudiness is not directly tied to the latitudes.
+                            You will see that cities have varied weather patterns for their cloudiness all over our plot regardless of their corresponding latitudes. This means that clouds in general can be formed due to various reasons – precipitation, rainfall, flora/fauna, winds, humidity etc. in each city, regardless of which latitude the city falls in.
+                                
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h2 class = teal-color>Visualizations</h2>
+                        <hr>
+                        <div class="row" style="padding-bottom:10px">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <a href="max_temp.html">
+                                    <img src="latitude_vs_temperature.png" alt="" style="width:100%">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <a href="humidity.html">
+                                    <img src="latitude_vs_humidity.png" alt="" style="width:100%">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <a href="cloudiness.html">
+                                    <img src="latitude_vs_cloudiness.png" alt="" style="width:100%" class="current">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <a href="wind_speed.html">
+                                    <img src="latitude_vs_windSpeed.png" alt="" style="width:100%">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+ 
+
+
+    <footer>
+        <p>Tushaar Bedi - UNCC Homework 10 Web Visualization Dashboard (Latitude)</p>
+     </footer>    
+
+    
+</body>
+</html>
+
+
