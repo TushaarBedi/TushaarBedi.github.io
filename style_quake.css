@@ -1,0 +1,42 @@
+html{
+    background-color:lightcoral;
+}
+
+body{
+    background-color: lightcoral;
+}
+
+.jumbotron {
+    text-align: center;
+    color: navy;
+    position: relative;
+    background: lightcoral ;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#map{
+    height: 900px;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+    /* background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px; */
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.leaflet-bottom.leaflet-left{
+    width: 90%;
+  }
